@@ -3,10 +3,10 @@
 #$ -S /bin/bash
 
 # Archivo de salida
-#$ -o /lhep/users/nieto/jobs/output/output_all_$JOBID.txt
+#$ -o .../output/output_all_$JOBID.txt
 
 # Archivo de salida de error
-#$ -e /lhep/users/nieto/jobs/error/error_all_$JOBID.txt
+#$ -e .../error/error_all_$JOBID.txt
 
 # JOB_ID=$SGE_TASK_ID
 
